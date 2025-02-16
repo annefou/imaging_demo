@@ -1,0 +1,12 @@
+name: demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - pooch 
+  - scikit-image
+  - matplotlib
+  - mystmd
+  - pip
+  - pip:
+      - jupyter_server
