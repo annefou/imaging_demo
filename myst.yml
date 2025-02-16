@@ -1,0 +1,33 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: BIA Seminar Series - image analysis using Galaxy
+  description: Jupyter notebooks showing how to perform image analysis using Galaxy
+  authors:
+    - name: Anne Fouilloux
+      affiliations:
+        - id: Simula Research Laboratory
+          institution: Simula Research Laboratory
+          ror: https://ror.org/00vn06n10
+  github: https://github.com/annefou/imaging_demo
+  banner: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+  thumbnail: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  copyright: "2025" # Copyright year to be placed in the footer
+  toc:
+    - file: imaging_demo.ipynb
+  # bibliography: []
+  subject: imaging
+site:
+  template: book-theme
+  options:
+    logo: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    logo_text: The Galaxy Project
+    revision: 2025-02-16
+  nav:
+    - title: Learn More
+      url: https://galaxyproject.org
+  domains: []
