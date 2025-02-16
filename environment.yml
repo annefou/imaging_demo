@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11.7
-  - pooch 
+  - pooch
   - scikit-image
   - matplotlib
   - mystmd
