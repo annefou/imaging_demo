@@ -19,6 +19,7 @@ project:
   copyright: "2025" # Copyright year to be placed in the footer
   toc:
     - file: imaging_demo.ipynb
+    - file: bio-imaging.ipynb
   # bibliography: []
   subject: imaging
 site:
